@@ -1,0 +1,134 @@
+
+
+.NavBar {
+  display: flex;
+  width: 100%;
+  height: 46px;
+  background-color: #353738;
+  background-size: 20px 20px;
+}
+
+@keyframes HomeStyleAnim {
+  from {color: #353738;}
+  to {color: white}
+}
+
+
+
+.HomeButtonStyle {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-align: center;
+  animation-name: HomeStyleAnim;
+  animation-duration: 6s;
+}
+
+
+.AboutButtonStyle {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-align: center;
+  animation-name: HomeStyleAnim;
+  animation-duration: 6s;
+}
+
+.ProjectsButtonStyle {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-align: center;
+  animation-name: HomeStyleAnim;
+  animation-duration: 6s;
+}
+
+.ContactsButtonStyle {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-align: center;
+  animation-name: HomeStyleAnim;
+  animation-duration: 6s;
+  flex-grow: 1;
+}
+
+.HomePageSyle {
+  font-size: 25px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.HomeDivStyle {
+  animation-name: HomeStyleAnim;
+  animation-duration: 6s;
+}
+
+.HomeContent {
+  margin-left: 2rem;
+  color: #353738;
+}
+
+.AboutPageStyle {
+  font-size: 25px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  animation-name: HomeStyleAnim;
+  animation-duration: 6s;
+  justify-content: right;
+}
+
+.ProjectPageStyle {
+  font-size: 25px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  animation-name: HomeStyleAnim;
+  animation-duration: 6s;
+  justify-content: right;
+}
+
+.ContactPageStyle {
+  font-size: 25px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  animation-name: HomeStyleAnim;
+  animation-duration: 6s;
+  justify-content: right;
+}
+
+.HomeBackround {
+  height: 46px;
+  flex-grow: 4;
+  margin-left: 20px;
+}
+
+.AboutBackround {
+  height: 46px;
+  flex-grow: 1;
+}
+
+.ProjectsBackround {
+  height: 46px;
+  flex-grow: 1;
+}
+
+.ContactsBackround {
+  height: 46px;
+  flex-grow: 1;
+}
+
+.BigPicture {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+
+:any-link:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
